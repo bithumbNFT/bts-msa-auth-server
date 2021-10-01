@@ -1,0 +1,32 @@
+version: "3"
+services:
+  auth:
+    build: ./auth-server
+    container_name: auth-server
+    restart: always
+    ports:
+      - "8081:8081"
+    depends_on:
+      - redis-server
+      - db
+
+  db:
+    build: ./db-server
+    container_name: db-server
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis-server
+
+  redis-server:
+    container_name: redis
+    image: "redis"
+    ports:
+      - 6379:6379
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+    volumes:
+      - ./redis/data:/data
+      - /etc/localtime:/etc/localtime:ro
