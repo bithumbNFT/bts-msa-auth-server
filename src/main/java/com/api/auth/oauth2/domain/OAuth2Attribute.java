@@ -1,4 +1,4 @@
-package com.api.auth.security.domain;
+package com.api.auth.oauth2.domain;
 
 import com.api.auth.user.domain.Role;
 import com.api.auth.user.domain.User;
@@ -8,7 +8,6 @@ import lombok.Getter;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j

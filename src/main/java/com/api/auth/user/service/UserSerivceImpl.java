@@ -2,12 +2,12 @@ package com.api.auth.user.service;
 
 import com.api.auth.config.GWErrorResponse;
 import com.api.auth.connectdb.DbConnectService;
-import com.api.auth.security.domain.Authorization;
-import com.api.auth.security.domain.OAuth2Attribute;
-import com.api.auth.security.domain.SecurityToken;
-import com.api.auth.security.service.Oatuh2KakaoServiceimpl;
-import com.api.auth.security.service.Oauth2NaverServiceImpl;
-import com.api.auth.security.service.SecurityTokenService;
+import com.api.auth.oauth2.domain.Authorization;
+import com.api.auth.oauth2.domain.OAuth2Attribute;
+import com.api.auth.oauth2.domain.SecurityToken;
+import com.api.auth.oauth2.service.Oatuh2KakaoServiceimpl;
+import com.api.auth.oauth2.service.Oauth2NaverServiceImpl;
+import com.api.auth.oauth2.service.SecurityTokenService;
 import com.api.auth.user.domain.Role;
 import com.api.auth.user.domain.User;
 import com.api.auth.user.domain.UserDto;

@@ -1,6 +1,6 @@
-package com.api.auth.security.service;
+package com.api.auth.oauth2.service;
 
-import com.api.auth.security.domain.SecurityToken;
+import com.api.auth.oauth2.domain.SecurityToken;
 import io.jsonwebtoken.*;
 import org.apache.commons.lang.time.DateUtils;
 import org.springframework.beans.factory.annotation.Value;

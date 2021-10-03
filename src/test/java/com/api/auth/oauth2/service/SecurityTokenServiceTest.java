@@ -1,6 +1,6 @@
-package com.api.auth.security.service;
+package com.api.auth.oauth2.service;
 
-import com.api.auth.security.domain.SecurityToken;
+import com.api.auth.oauth2.domain.SecurityToken;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.junit.jupiter.api.BeforeEach;

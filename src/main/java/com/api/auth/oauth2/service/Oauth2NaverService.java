@@ -1,6 +1,6 @@
-package com.api.auth.security.service;
+package com.api.auth.oauth2.service;
 
-import com.api.auth.security.domain.Authorization;
+import com.api.auth.oauth2.domain.Authorization;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;

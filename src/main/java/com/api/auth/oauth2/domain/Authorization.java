@@ -1,4 +1,4 @@
-package com.api.auth.security.domain;
+package com.api.auth.oauth2.domain;
 
 import lombok.Getter;
 

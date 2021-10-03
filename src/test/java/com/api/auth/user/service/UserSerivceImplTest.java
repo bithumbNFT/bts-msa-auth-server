@@ -1,11 +1,9 @@
 package com.api.auth.user.service;
 
-import com.api.auth.security.service.SecurityTokenService;
+import com.api.auth.oauth2.service.SecurityTokenService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class UserSerivceImplTest {
     @Mock
