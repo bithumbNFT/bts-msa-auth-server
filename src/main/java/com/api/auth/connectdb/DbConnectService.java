@@ -17,13 +17,13 @@ public class DbConnectService {
     private final DbConnectionClient dbConnectionClient;
 
     public User userSaveOrUpdateRest(OAuth2Attribute oAuth2Attribute) {
-        URI uri = UriComponentsBuilder
-                .fromUriString("http://db-server:8080")
-                .path("/save_update")
-                .encode()
-                .build()
-                .toUri();
-        ResponseEntity<User> response = restTemplate.postForEntity(uri, oAuth2Attribute, User.class);
+//        URI uri = UriComponentsBuilder
+//                .fromUriString("http://db-server:8080")
+//                .path("/save_update")
+//                .encode()
+//                .build()
+//                .toUri();
+//        ResponseEntity<User> response = restTemplate.postForEntity(uri, oAuth2Attribute, User.class);
         User user = dbConnectionClient.saveOrUpdate(oAuth2Attribute);
         System.out.println(user.getEmail());
         System.out.println(user.getName());
