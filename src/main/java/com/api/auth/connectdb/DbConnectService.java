@@ -14,6 +14,7 @@ import java.net.URI;
 @RequiredArgsConstructor
 public class DbConnectService {
     private final RestTemplate restTemplate;
+    private final DbConnectionClient dbConnectionClient;
 
     public User userSaveOrUpdateRest(OAuth2Attribute oAuth2Attribute) {
         URI uri = UriComponentsBuilder
@@ -23,7 +24,10 @@ public class DbConnectService {
                 .build()
                 .toUri();
         ResponseEntity<User> response = restTemplate.postForEntity(uri, oAuth2Attribute, User.class);
-
-        return response.getBody();
+        User user = dbConnectionClient.saveOrUpdate(oAuth2Attribute);
+        System.out.println(user.getEmail());
+        System.out.println(user.getName());
+        return null;
+//        return response.getBody();
     }
 }
