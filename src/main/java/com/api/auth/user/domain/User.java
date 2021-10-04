@@ -20,24 +20,19 @@ public class User {
     private String coinWallet;
 
     @Builder
-    public User(String name, String social, String email, String picture, Role role) {
+    public User(String name, String social, String email, String picture, Role role, String coinWallet) {
         this.name = name;
         this.social = social;
         this.email = email;
         this.picture = picture;
         this.role = role;
+        this.coinWallet = coinWallet;
     }
 
     public User update(String name, String picture, String social) {
         this.name = name;
         this.picture = picture;
         this.social = social;
-
         return this;
     }
-
-
-
-
-
 }

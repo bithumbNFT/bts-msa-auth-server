@@ -75,7 +75,7 @@ public class UserSerivceImpl implements UserService {
                 .email(user.getEmail())
                 .name(user.getName())
                 .picture(user.getPicture())
-                .coinWallet("")
+                .coinWallet(user.getCoinWallet())
                 .token(securityToken.getToken())
                 .refreshToken(securityToken.getRefreshToken())
                 .build();
@@ -87,6 +87,4 @@ public class UserSerivceImpl implements UserService {
         String email = securityTokenService.getEmail(token);
         redisServiceImpl.deleteToken(email + "_" + type);
     }
-
-
 }
