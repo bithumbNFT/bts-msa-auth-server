@@ -1,0 +1,393 @@
+14:41:42.550 INFO  HV000001: Hibernate Validator 6.1.7.Final
+14:41:42.573 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-core\2.3.0.1\23574ca124d0a694721ce3ef13cd720095f18fdd\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0.1/23574ca124d0a694721ce3ef13cd720095f18fdd/jaxb-api.jar
+14:41:42.574 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-impl\2.3.1\a1a12b85ba1435b4189e065f7dafcc3fb9410d38\jaxb-impl-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/jaxb-runtime-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/txw2-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/istack-commons-runtime-3.0.7.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/stax-ex-1.8.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/FastInfoset-1.2.15.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/javax.activation-api-1.2.0.jar
+14:41:42.583 INFO  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:41:43.156 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:41:43.749 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:41:43.750 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:41:43.767 INFO  No active profile set, falling back to default profiles: default
+14:41:44.628 INFO  Multiple Spring Data modules found, entering strict repository configuration mode!
+14:41:44.630 INFO  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:41:44.653 INFO  Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+14:41:45.016 INFO  BeanFactory id=a018d5f3-2d28-3deb-b00b-44b3d656e0d2
+14:41:45.030 INFO  @Bean method FunctionConfiguration.po is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+14:41:45.044 INFO  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:41:45.048 INFO  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:41:45.052 INFO  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:41:45.291 INFO  Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$8f730a9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.300 INFO  Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.310 INFO  Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.341 INFO  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.359 INFO  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.362 INFO  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.419 INFO  Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$41785b13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.424 INFO  Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$530/0x0000000800656c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.431 INFO  Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.442 INFO  Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.447 INFO  Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:41:45.925 INFO  Tomcat initialized with port(s): 8081 (http)
+14:41:45.934 INFO  Initializing ProtocolHandler ["http-nio-8081"]
+14:41:45.934 INFO  Starting service [Tomcat]
+14:41:45.934 INFO  Starting Servlet engine: [Apache Tomcat/9.0.52]
+14:41:46.061 INFO  Initializing Spring embedded WebApplicationContext
+14:41:46.062 INFO  Root WebApplicationContext: initialization completed in 2280 ms
+14:41:48.335 INFO  Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+14:41:48.595 INFO  
+
+Using generated security password: c60da183-1f1a-414b-8c09-1ba1ff4d818c
+
+14:41:48.701 INFO  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67d1ff4d, org.springframework.security.web.context.SecurityContextPersistenceFilter@53d0f185, org.springframework.security.web.header.HeaderWriterFilter@209e3dcf, org.springframework.security.web.authentication.logout.LogoutFilter@5478c48d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28348071, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30664926, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47385527, org.springframework.security.web.session.SessionManagementFilter@4d0a244b, org.springframework.security.web.access.ExceptionTranslationFilter@2bb3dfac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30086190]
+14:41:48.770 INFO  LiveReload server is running on port 35729
+14:41:48.977 INFO  Eureka HTTP Client uses RestTemplate.
+14:41:49.109 WARN  Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+14:41:49.115 WARN  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traceFeignObjectWrapper' defined in class path resource [org/springframework/cloud/sleuth/instrument/web/client/feign/TraceFeignClientAutoConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignObjectWrapper] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@61064425]
+14:41:49.253 INFO  Stopping service [Tomcat]
+14:41:49.267 INFO  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:41:49.284 ERROR Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traceFeignObjectWrapper' defined in class path resource [org/springframework/cloud/sleuth/instrument/web/client/feign/TraceFeignClientAutoConfiguration.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignObjectWrapper] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@61064425]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318)
+	at com.api.auth.AuthApplication.main(AuthApplication.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignObjectWrapper] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@61064425]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1098)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/cloud/openfeign/ribbon/CachingSpringLoadBalancerFactory
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3167)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2310)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.cloud.openfeign.ribbon.CachingSpringLoadBalancerFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 32 common frames omitted
+14:42:36.192 INFO  HV000001: Hibernate Validator 6.1.7.Final
+14:42:36.219 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-core\2.3.0.1\23574ca124d0a694721ce3ef13cd720095f18fdd\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0.1/23574ca124d0a694721ce3ef13cd720095f18fdd/jaxb-api.jar
+14:42:36.220 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-impl\2.3.1\a1a12b85ba1435b4189e065f7dafcc3fb9410d38\jaxb-impl-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/jaxb-runtime-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/txw2-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/istack-commons-runtime-3.0.7.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/stax-ex-1.8.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/FastInfoset-1.2.15.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/javax.activation-api-1.2.0.jar
+14:42:36.220 INFO  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:42:36.784 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:42:37.131 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:42:37.132 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:42:37.146 INFO  No active profile set, falling back to default profiles: default
+14:42:37.969 INFO  Multiple Spring Data modules found, entering strict repository configuration mode!
+14:42:37.972 INFO  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:42:37.995 INFO  Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+14:42:38.327 INFO  BeanFactory id=afe274d6-4a3a-3127-a598-0c4c3ca3a0ba
+14:42:38.340 INFO  @Bean method FunctionConfiguration.po is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+14:42:38.355 INFO  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:42:38.360 INFO  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:42:38.364 INFO  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:42:38.606 INFO  Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$57746e85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.613 INFO  Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.621 INFO  Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.650 INFO  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.666 INFO  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.668 INFO  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.717 INFO  Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$979befa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.721 INFO  Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$530/0x0000000800656840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.726 INFO  Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.735 INFO  Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:38.740 INFO  Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:39.226 INFO  Tomcat initialized with port(s): 8081 (http)
+14:42:39.235 INFO  Initializing ProtocolHandler ["http-nio-8081"]
+14:42:39.236 INFO  Starting service [Tomcat]
+14:42:39.236 INFO  Starting Servlet engine: [Apache Tomcat/9.0.52]
+14:42:39.365 INFO  Initializing Spring embedded WebApplicationContext
+14:42:39.365 INFO  Root WebApplicationContext: initialization completed in 2208 ms
+14:42:41.565 INFO  Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+14:42:41.822 INFO  
+
+Using generated security password: 7c239c2d-979d-4d33-ae3a-fa9387da130d
+
+14:42:41.913 INFO  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1843ea72, org.springframework.security.web.context.SecurityContextPersistenceFilter@7688b504, org.springframework.security.web.header.HeaderWriterFilter@248ffaf8, org.springframework.security.web.authentication.logout.LogoutFilter@4093f9ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47f9a3f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25e79cd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@757a72e3, org.springframework.security.web.session.SessionManagementFilter@2b29b8f8, org.springframework.security.web.access.ExceptionTranslationFilter@4811eead, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@572b8b65]
+14:42:41.981 INFO  LiveReload server is running on port 35729
+14:42:42.195 INFO  Eureka HTTP Client uses RestTemplate.
+14:42:42.340 WARN  Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+14:42:42.405 INFO  Exposing 2 endpoint(s) beneath base path '/actuator'
+14:42:42.524 INFO  Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:42:42.524 INFO  Channel 'application-1.errorChannel' has 1 subscriber(s).
+14:42:42.524 INFO  started bean '_org.springframework.integration.errorLogger'
+14:42:42.532 INFO  Setting initial instance status as: STARTING
+14:42:42.589 INFO  Initializing Eureka in region us-east-1
+14:42:42.593 INFO  Resolving eureka endpoints via configuration
+14:42:42.727 INFO  Disable delta property : false
+14:42:42.727 INFO  Single vip registry refresh property : null
+14:42:42.727 INFO  Force full registry fetch : false
+14:42:42.727 INFO  Application is null : false
+14:42:42.727 INFO  Registered Applications size is zero : true
+14:42:42.727 INFO  Application version is -1: true
+14:42:42.727 INFO  Getting all instance registry info from the eureka server
+14:42:42.780 INFO  The response status is 200
+14:42:42.782 INFO  Starting heartbeat executor: renew interval is: 30
+14:42:42.784 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:42:42.787 INFO  Discovery Client initialized at timestamp 1633671762787 with initial instances count: 5
+14:42:42.792 INFO  Registering application AUTH-SERVICE with eureka with status UP
+14:42:42.792 INFO  Saw local status change event StatusChangeEvent [timestamp=1633671762792, current=UP, previous=STARTING]
+14:42:42.793 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance: registering service...
+14:42:42.795 INFO  Creating binder: rabbit
+14:42:43.028 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:42:43.278 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:42:43.278 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:42:43.354 INFO  Caching the binder: rabbit
+14:42:43.354 INFO  Retrieving cached binder: rabbit
+14:42:43.438 INFO  declaring queue for inbound: springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg, bound to: springCloudBus
+14:42:43.442 INFO  Attempting to connect to: [3.38.31.74:5672]
+14:42:43.515 INFO  Created new connection: rabbitConnectionFactory#3c00482b:0/SimpleConnection@26914c81 [delegate=amqp://bts@3.38.31.74:5672/, localPort= 63443]
+14:42:43.582 INFO  Channel 'springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg.errors' has 1 subscriber(s).
+14:42:43.583 INFO  Channel 'springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg.errors' has 2 subscriber(s).
+14:42:43.613 INFO  started bean 'inbound.springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg'
+14:42:43.615 INFO  Starting ProtocolHandler ["http-nio-8081"]
+14:42:43.629 INFO  Tomcat started on port(s): 8081 (http) with context path ''
+14:42:43.630 INFO  Updating port to 8081
+14:42:43.827 INFO  Started AuthApplication in 8.435 seconds (JVM running for 9.102)
+14:44:13.381 INFO  Unregistering application AUTH-SERVICE with eureka with status DOWN
+14:44:13.382 INFO  Saw local status change event StatusChangeEvent [timestamp=1633671853382, current=DOWN, previous=UP]
+14:44:13.382 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance: registering service...
+14:44:13.399 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance - registration status: 204
+14:44:13.525 INFO  Waiting for workers to finish.
+14:44:14.446 INFO  Successfully waited for workers to finish.
+14:44:14.446 INFO  stopped bean 'inbound.springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg'
+14:44:14.454 INFO  Channel 'application-1.springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg.errors' has 1 subscriber(s).
+14:44:14.455 INFO  Channel 'application-1.springCloudBus.anonymous.id1JJnH3TT2oGOk4xDsIwg.errors' has 0 subscriber(s).
+14:44:14.456 INFO  Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:44:14.456 INFO  Channel 'application-1.errorChannel' has 0 subscriber(s).
+14:44:14.456 INFO  stopped bean '_org.springframework.integration.errorLogger'
+14:44:14.590 INFO  Shutting down DiscoveryClient ...
+14:44:17.600 INFO  Unregistering ...
+14:44:17.607 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance - deregister  status: 200
+14:44:17.609 INFO  Completed shut down of DiscoveryClient
+14:44:21.560 INFO  HV000001: Hibernate Validator 6.1.7.Final
+14:44:21.585 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-core\2.3.0.1\23574ca124d0a694721ce3ef13cd720095f18fdd\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0.1/23574ca124d0a694721ce3ef13cd720095f18fdd/jaxb-api.jar
+14:44:21.586 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-impl\2.3.1\a1a12b85ba1435b4189e065f7dafcc3fb9410d38\jaxb-impl-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/jaxb-runtime-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/txw2-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/istack-commons-runtime-3.0.7.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/stax-ex-1.8.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/FastInfoset-1.2.15.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/javax.activation-api-1.2.0.jar
+14:44:21.586 INFO  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:44:22.181 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:44:22.528 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:44:22.528 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:44:22.544 INFO  No active profile set, falling back to default profiles: default
+14:44:23.358 INFO  Multiple Spring Data modules found, entering strict repository configuration mode!
+14:44:23.361 INFO  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:44:23.384 INFO  Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+14:44:23.718 INFO  BeanFactory id=afe274d6-4a3a-3127-a598-0c4c3ca3a0ba
+14:44:23.731 INFO  @Bean method FunctionConfiguration.po is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+14:44:23.746 INFO  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:44:23.750 INFO  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:44:23.755 INFO  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:44:24.002 INFO  Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$d4dfa2b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.010 INFO  Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.019 INFO  Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.050 INFO  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.069 INFO  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.072 INFO  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.126 INFO  Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$86e4f328] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.131 INFO  Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$530/0x0000000800656840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.137 INFO  Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.149 INFO  Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.156 INFO  Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:24.672 INFO  Tomcat initialized with port(s): 8081 (http)
+14:44:24.681 INFO  Initializing ProtocolHandler ["http-nio-8081"]
+14:44:24.681 INFO  Starting service [Tomcat]
+14:44:24.681 INFO  Starting Servlet engine: [Apache Tomcat/9.0.52]
+14:44:24.816 INFO  Initializing Spring embedded WebApplicationContext
+14:44:24.816 INFO  Root WebApplicationContext: initialization completed in 2262 ms
+14:44:27.162 INFO  Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+14:44:27.385 INFO  
+
+Using generated security password: 62390748-306e-4ce1-90f0-6da8f7015aaf
+
+14:44:27.473 INFO  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c070bc0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6121edb9, org.springframework.security.web.header.HeaderWriterFilter@4baabe26, org.springframework.security.web.authentication.logout.LogoutFilter@7622e23d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b1ace13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@670d4427, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@119ba84, org.springframework.security.web.session.SessionManagementFilter@6dec0b49, org.springframework.security.web.access.ExceptionTranslationFilter@c32d88c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d127697]
+14:44:27.541 INFO  LiveReload server is running on port 35729
+14:44:27.746 INFO  Eureka HTTP Client uses RestTemplate.
+14:44:27.893 WARN  Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+14:44:27.951 INFO  Exposing 2 endpoint(s) beneath base path '/actuator'
+14:44:28.077 INFO  Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:44:28.077 INFO  Channel 'application-1.errorChannel' has 1 subscriber(s).
+14:44:28.078 INFO  started bean '_org.springframework.integration.errorLogger'
+14:44:28.086 INFO  Setting initial instance status as: STARTING
+14:44:28.136 INFO  Initializing Eureka in region us-east-1
+14:44:28.140 INFO  Resolving eureka endpoints via configuration
+14:44:28.279 INFO  Disable delta property : false
+14:44:28.279 INFO  Single vip registry refresh property : null
+14:44:28.279 INFO  Force full registry fetch : false
+14:44:28.279 INFO  Application is null : false
+14:44:28.279 INFO  Registered Applications size is zero : true
+14:44:28.279 INFO  Application version is -1: true
+14:44:28.279 INFO  Getting all instance registry info from the eureka server
+14:44:28.330 INFO  The response status is 200
+14:44:28.333 INFO  Starting heartbeat executor: renew interval is: 30
+14:44:28.334 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:44:28.338 INFO  Discovery Client initialized at timestamp 1633671868337 with initial instances count: 5
+14:44:28.342 INFO  Registering application AUTH-SERVICE with eureka with status UP
+14:44:28.343 INFO  Saw local status change event StatusChangeEvent [timestamp=1633671868343, current=UP, previous=STARTING]
+14:44:28.344 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance: registering service...
+14:44:28.345 INFO  Creating binder: rabbit
+14:44:28.562 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:44:28.810 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:44:28.811 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:44:28.880 INFO  Caching the binder: rabbit
+14:44:28.880 INFO  Retrieving cached binder: rabbit
+14:44:28.953 INFO  declaring queue for inbound: springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA, bound to: springCloudBus
+14:44:28.956 INFO  Attempting to connect to: [3.38.31.74:5672]
+14:44:29.023 INFO  Created new connection: rabbitConnectionFactory#364a0766:0/SimpleConnection@29fc7c53 [delegate=amqp://bts@3.38.31.74:5672/, localPort= 50590]
+14:44:29.081 INFO  Channel 'springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA.errors' has 1 subscriber(s).
+14:44:29.081 INFO  Channel 'springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA.errors' has 2 subscriber(s).
+14:44:29.106 INFO  started bean 'inbound.springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA'
+14:44:29.107 INFO  Starting ProtocolHandler ["http-nio-8081"]
+14:44:29.125 INFO  Tomcat started on port(s): 8081 (http) with context path ''
+14:44:29.126 INFO  Updating port to 8081
+14:44:29.323 INFO  Started AuthApplication in 8.562 seconds (JVM running for 9.214)
+14:45:14.311 INFO  Unregistering application AUTH-SERVICE with eureka with status DOWN
+14:45:14.311 INFO  Saw local status change event StatusChangeEvent [timestamp=1633671914311, current=DOWN, previous=UP]
+14:45:14.311 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance: registering service...
+14:45:14.329 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance - registration status: 204
+14:45:14.455 INFO  Waiting for workers to finish.
+14:45:14.467 INFO  Successfully waited for workers to finish.
+14:45:14.467 INFO  stopped bean 'inbound.springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA'
+14:45:14.475 INFO  Channel 'application-1.springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA.errors' has 1 subscriber(s).
+14:45:14.475 INFO  Channel 'application-1.springCloudBus.anonymous.PIvm1wC6Sj6ogEwo3p--RA.errors' has 0 subscriber(s).
+14:45:14.477 INFO  Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:45:14.477 INFO  Channel 'application-1.errorChannel' has 0 subscriber(s).
+14:45:14.477 INFO  stopped bean '_org.springframework.integration.errorLogger'
+14:45:14.605 INFO  Shutting down DiscoveryClient ...
+14:45:17.611 INFO  Unregistering ...
+14:45:17.617 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance - deregister  status: 200
+14:45:17.619 INFO  Completed shut down of DiscoveryClient
+14:45:22.078 INFO  HV000001: Hibernate Validator 6.1.7.Final
+14:45:22.115 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-core\2.3.0.1\23574ca124d0a694721ce3ef13cd720095f18fdd\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0.1/23574ca124d0a694721ce3ef13cd720095f18fdd/jaxb-api.jar
+14:45:22.115 INFO  The Class-Path manifest attribute in C:\Users\binju\.gradle\caches\modules-2\files-2.1\com.sun.xml.bind\jaxb-impl\2.3.1\a1a12b85ba1435b4189e065f7dafcc3fb9410d38\jaxb-impl-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/jaxb-runtime-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/txw2-2.3.1.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/istack-commons-runtime-3.0.7.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/stax-ex-1.8.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/FastInfoset-1.2.15.jar,file:/C:/Users/binju/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.1/a1a12b85ba1435b4189e065f7dafcc3fb9410d38/javax.activation-api-1.2.0.jar
+14:45:22.116 INFO  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:45:22.784 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:45:23.139 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:45:23.140 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:45:23.158 INFO  No active profile set, falling back to default profiles: default
+14:45:24.074 INFO  Multiple Spring Data modules found, entering strict repository configuration mode!
+14:45:24.077 INFO  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:45:24.101 INFO  Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+14:45:24.517 INFO  BeanFactory id=afe274d6-4a3a-3127-a598-0c4c3ca3a0ba
+14:45:24.530 INFO  @Bean method FunctionConfiguration.po is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+14:45:24.545 INFO  No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+14:45:24.550 INFO  No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+14:45:24.556 INFO  No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+14:45:24.829 INFO  Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$113c1672] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.838 INFO  Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.848 INFO  Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.879 INFO  Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.895 INFO  Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.898 INFO  Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.956 INFO  Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$c34166e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.961 INFO  Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$530/0x0000000800656840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.968 INFO  Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.983 INFO  Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:24.989 INFO  Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:45:25.601 INFO  Tomcat initialized with port(s): 8081 (http)
+14:45:25.610 INFO  Initializing ProtocolHandler ["http-nio-8081"]
+14:45:25.611 INFO  Starting service [Tomcat]
+14:45:25.611 INFO  Starting Servlet engine: [Apache Tomcat/9.0.52]
+14:45:25.752 INFO  Initializing Spring embedded WebApplicationContext
+14:45:25.752 INFO  Root WebApplicationContext: initialization completed in 2583 ms
+14:45:28.311 INFO  Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+14:45:28.550 INFO  
+
+Using generated security password: 7605ad8b-02b4-48ba-b5cb-a2e8110c6f0d
+
+14:45:28.640 INFO  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@738dbdb6, org.springframework.security.web.context.SecurityContextPersistenceFilter@57cf2e82, org.springframework.security.web.header.HeaderWriterFilter@69ce6acb, org.springframework.security.web.authentication.logout.LogoutFilter@3527213b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2193e593, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ceda3eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ba73d66, org.springframework.security.web.session.SessionManagementFilter@6f89aa42, org.springframework.security.web.access.ExceptionTranslationFilter@d841cd2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@254132bc]
+14:45:28.726 INFO  LiveReload server is running on port 35729
+14:45:28.967 INFO  Eureka HTTP Client uses RestTemplate.
+14:45:29.112 WARN  Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+14:45:29.171 INFO  Exposing 2 endpoint(s) beneath base path '/actuator'
+14:45:29.273 INFO  Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+14:45:29.274 INFO  Channel 'application-1.errorChannel' has 1 subscriber(s).
+14:45:29.274 INFO  started bean '_org.springframework.integration.errorLogger'
+14:45:29.282 INFO  Setting initial instance status as: STARTING
+14:45:29.339 INFO  Initializing Eureka in region us-east-1
+14:45:29.343 INFO  Resolving eureka endpoints via configuration
+14:45:29.480 INFO  Disable delta property : false
+14:45:29.480 INFO  Single vip registry refresh property : null
+14:45:29.480 INFO  Force full registry fetch : false
+14:45:29.480 INFO  Application is null : false
+14:45:29.480 INFO  Registered Applications size is zero : true
+14:45:29.480 INFO  Application version is -1: true
+14:45:29.480 INFO  Getting all instance registry info from the eureka server
+14:45:29.535 INFO  The response status is 200
+14:45:29.537 INFO  Starting heartbeat executor: renew interval is: 30
+14:45:29.539 INFO  InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:45:29.542 INFO  Discovery Client initialized at timestamp 1633671929542 with initial instances count: 5
+14:45:29.547 INFO  Registering application AUTH-SERVICE with eureka with status UP
+14:45:29.547 INFO  Saw local status change event StatusChangeEvent [timestamp=1633671929547, current=UP, previous=STARTING]
+14:45:29.549 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance: registering service...
+14:45:29.550 INFO  Creating binder: rabbit
+14:45:29.775 INFO  Fetching config from server at : http://3.38.31.74:8888
+14:45:30.015 INFO  Located environment: name=auth-server, profiles=[test], label=null, version=5bc35805005014f3b523da7429a9758dc7cce33e, state=null
+14:45:30.016 INFO  Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/auth-server.yaml'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/baekinjun/msa-configurations/application.yaml'}]
+14:45:30.090 INFO  Caching the binder: rabbit
+14:45:30.090 INFO  Retrieving cached binder: rabbit
+14:45:30.170 INFO  declaring queue for inbound: springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q, bound to: springCloudBus
+14:45:30.173 INFO  Attempting to connect to: [3.38.31.74:5672]
+14:45:30.243 INFO  Created new connection: rabbitConnectionFactory#168661f:0/SimpleConnection@54ab476b [delegate=amqp://bts@3.38.31.74:5672/, localPort= 51253]
+14:45:30.296 INFO  Channel 'springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q.errors' has 1 subscriber(s).
+14:45:30.297 INFO  Channel 'springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q.errors' has 2 subscriber(s).
+14:45:30.322 INFO  started bean 'inbound.springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q'
+14:45:30.324 INFO  Starting ProtocolHandler ["http-nio-8081"]
+14:45:30.340 INFO  Tomcat started on port(s): 8081 (http) with context path ''
+14:45:30.341 INFO  Updating port to 8081
+14:45:30.560 INFO  Started AuthApplication in 9.372 seconds (JVM running for 10.162)
+14:49:16.299 INFO  Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:49:16.300 INFO  Initializing Servlet 'dispatcherServlet'
+14:49:16.301 INFO  Completed initialization in 1 ms
+14:49:16.335 INFO  test
+14:50:29.492 INFO  Resolving eureka endpoints via configuration
+14:53:24.313 INFO  test
+14:53:25.468 INFO  test
+14:55:29.503 INFO  Resolving eureka endpoints via configuration
+15:00:29.518 INFO  Resolving eureka endpoints via configuration
+15:05:29.523 INFO  Resolving eureka endpoints via configuration
+15:09:36.811 INFO  test
+15:10:29.529 INFO  Resolving eureka endpoints via configuration
+15:15:29.544 INFO  Resolving eureka endpoints via configuration
+15:20:29.552 INFO  Resolving eureka endpoints via configuration
+15:25:29.567 INFO  Resolving eureka endpoints via configuration
+15:30:29.568 INFO  Resolving eureka endpoints via configuration
+15:33:32.404 INFO  Unregistering application AUTH-SERVICE with eureka with status DOWN
+15:33:32.404 INFO  Saw local status change event StatusChangeEvent [timestamp=1633674812404, current=DOWN, previous=UP]
+15:33:32.404 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance: registering service...
+15:33:32.428 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance - registration status: 204
+15:33:32.548 INFO  Waiting for workers to finish.
+15:33:33.212 INFO  Successfully waited for workers to finish.
+15:33:33.212 INFO  stopped bean 'inbound.springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q'
+15:33:33.222 INFO  Channel 'application-1.springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q.errors' has 1 subscriber(s).
+15:33:33.223 INFO  Channel 'application-1.springCloudBus.anonymous.S4bxyv8pQO6SRSxYkld16Q.errors' has 0 subscriber(s).
+15:33:33.224 INFO  Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+15:33:33.224 INFO  Channel 'application-1.errorChannel' has 0 subscriber(s).
+15:33:33.224 INFO  stopped bean '_org.springframework.integration.errorLogger'
+15:33:33.364 INFO  Shutting down DiscoveryClient ...
+15:33:36.374 INFO  Unregistering ...
+15:33:36.379 INFO  DiscoveryClient_AUTH-SERVICE/auth-ms-instance - deregister  status: 200
+15:33:36.381 INFO  Completed shut down of DiscoveryClient

@@ -24,6 +24,7 @@ public class UserController {
 
     @GetMapping("/hello")
     public String index() {
+        log.info("test");
         return "hello-auth";
     }
 

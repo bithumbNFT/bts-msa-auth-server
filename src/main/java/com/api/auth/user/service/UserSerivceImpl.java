@@ -42,9 +42,12 @@ public class UserSerivceImpl implements UserService {
         if (email == null) throw new IllegalArgumentException();
         String refreshTokenFromRedis = redisServiceImpl.findByEmail(email);
         if (!refreshToken.equals(refreshTokenFromRedis)) {
+            log.info("\"refresh is not equal\"");
             return GWErrorResponse.defaultBuild("refresh is not equal", 58);
         }
         if (securityTokenService.checkExpiredRefreshToken(refreshToken)) {
+            log.info("refresh token is expried go to loginpage");
+
             return GWErrorResponse.defaultBuild("refresh token is expried go to loginpage", 58);
         }
 
@@ -84,6 +87,7 @@ public class UserSerivceImpl implements UserService {
 
     @Override
     public void logout(String token, String refreshToken, String type) {
+        log.info("delete refresh token");
         String email = securityTokenService.getEmail(token);
         redisServiceImpl.deleteToken(email + "_" + type);
     }
